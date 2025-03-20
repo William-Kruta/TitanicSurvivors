@@ -14,6 +14,10 @@ The dataset can be found here: https://www.kaggle.com/datasets/brendan45774/test
 
 Below is a sample of the input features used for the network.
 
+**Note**:
+Features such as "Age" and "Fare" are scaled between 0 and 1.
+Features such as "Sex" and "Embarked" are mapped to integers.
+
 ```
 Pclass = Passenger Class
 Sex = Gender of the passenger
@@ -21,7 +25,7 @@ Age = Age of the passenger
 SibSp = Number of siblings/spouses aboard the Titanic
 Parch = Number of parents/children aboard the Titanic
 Fare = Fare paid for the ticket
-Embarked = Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)  # Note: These appear as integers in the training data.
+Embarked = Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
 
   Pclass  Sex       Age  SibSp  Parch      Fare  Embarked
